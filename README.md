@@ -1,12 +1,10 @@
-# 帮你购
-香港诚信优购，请让我帮你购！
+# 大刚学算法
+> 学习数据结构和算法后，整理的笔记，分享出来，欢迎指正。
 
-## 品类
-* 奶粉
-* 药品
-* 食品
 
-## 请联系我
-添加微信时，请发送`帮你购`关键字。
+## 代码仓库
+* [力扣刷题](https://gitee.com/mgang/leet-code)
 
-![](http://qn.meiflower.top/bng/wx.jpg)
+## 参考资料
+* 算法4 - https://algs4.cs.princeton.edu/home/
+* 算法可视化 - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
