@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>数据结构和算法</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css">
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+        <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+        <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/icon/favicon-16x16.png">
+    <link rel="manifest" href="static/icon/site.webmanifest">
+    <style>
+      .el-menu-item.is-active {
+          color: green;
+      }
+      @media (min-width: 500px) {
+        img {
+          width: 30%;
+        }
+      }
+      ul{
+        padding-left: 25px;
+      }
+      #logo{
+        width:30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="vue"></div>
+    <script>
+        window.$mangodoc = {
+            title: '大刚学算法',
+            repo: 'https://github.com/mg0324/alg',
+            footer: '<span>数据结构算法学习 &copy; 2023 </span> ',
+            themeColor: "green",
+            sideWidth: 250,
+            alwaysRefresh: true,
+            version: "0.0.1",
+            // giscus评论
+            giscus:{
+              repo: "mg0324/docsify-comments",
+              repoId: "R_kgDOI68LwA",
+              category: "Announcements",
+              categoryId: "DIC_kwDOI68LwM4CUDhM",
+              mapping: "title",
+              reactionsEnabled: "1",
+              strict: "1",
+              emitMetadata: "0",
+              inputPosition: "bottom",
+              theme: "light",
+              lang: "zh-CN",
+              loading: "lazy"
+            },
+            toc:{
+              select: "h1, h2, h3, h4, h5, h6"
+            },
+            //baiduTjId: "bb8c28a0091d955f47a7f5578995707a",
+            plantuml: {
+              type: "svg"
+            },
+            // 开启busuanzi
+            busuanzi: true,
+            // 最后修改时间
+            updateTime: {
+              align: "right",// 默认
+              prefix: "最后修改时间为",//默认
+              format: "YYYY-MM-DD HH:mm:ss"// 默认
+            }
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/element-ui/lib/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc@1.4.3/dist/mangodoc.min.js"></script>
+    <!-- mangodoc-update-time -->
+    <script src="https://unpkg.com/mangodoc-update-time@1.0.3/dist/mangodoc-update-time.min.js"></script>
+    <!-- mangodoc-busuanzi -->
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-busuanzi@1.1.1/dist/mangodoc-busuanzi.min.js"></script>
+    <!-- giscus评论  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-giscus@1.0.1/dist/giscus.css">
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-giscus@1.0.1/dist/mangodoc-giscus.min.js"></script>
+    <!-- toc文章目录  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-toc@1.0.2/dist/toc.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-toc@1.0.3/dist/mangodoc-toc.min.js"></script>  
+    <!-- to top  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-top@1.0.2/dist/top.css">
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-top@1.0.2/dist/mangodoc-top.min.js"></script> 
+    <!-- imgview插件  -->
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-imgview@1.0.4/dist/imgview.css">
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-imgview@1.0.4/dist/mangodoc-imgview.min.js"></script>
+    <!-- 百度统计 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/mangodoc-baidu-tj@1.0.0/dist/mangodoc-baidu-tj.min.js"></script> -->
+    <!-- plantuml插件 -->
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-plantuml@1.0.1/dist/mangodoc-plantuml.min.js"></script>
+    <!-- java语法高亮 -->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"></script>
+  </body>
+</html>

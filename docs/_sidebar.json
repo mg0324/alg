@@ -1,0 +1,16 @@
+[
+    {
+        "title": "首页",
+        "href": "#/",
+        "target": "_self",
+        "level": 1,
+        "icon": "el-icon-s-home"
+    },
+    {
+        "title": "位运算",
+        "level": 1,
+        "icon": "el-icon-star-on",
+        "href": "#/wys",
+        "target": "_self"
+    }
+]
