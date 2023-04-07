@@ -12,5 +12,35 @@
         "icon": "el-icon-star-on",
         "href": "#/wys",
         "target": "_self"
+    },
+    {
+        "title": "数据结构",
+        "level": 1,
+        "icon": "el-icon-star-on",
+        "children":[{
+                "title": "常用数据结构",
+                "level": 1,
+                "icon": "el-icon-star-on",
+                "href": "#/ds/index",
+                "target": "_self"
+            },
+            {
+                
+                "title": "数据结构",
+                "level": 1,
+                "icon": "el-icon-star-on",
+                "href": "#/ds/index",
+                "target": "_self",
+                "children":[
+                    {
+                        "title": "字符串和数组",
+                        "level": 1,
+                        "icon": "el-icon-star-on",
+                        "href": "#/ds/array",
+                        "target": "_self"
+                    }
+                ]
+            }
+        ]
     }
 ]
