@@ -29,14 +29,19 @@
                 "title": "数据结构",
                 "level": 1,
                 "icon": "el-icon-star-on",
-                "href": "#/ds/index",
-                "target": "_self",
                 "children":[
                     {
                         "title": "字符串和数组",
                         "level": 1,
                         "icon": "el-icon-star-on",
-                        "href": "#/ds/array",
+                        "href": "#/ds/array/index",
+                        "target": "_self"
+                    },
+                    {
+                        "title": "链表",
+                        "level": 1,
+                        "icon": "el-icon-star-on",
+                        "href": "#/ds/linktable/index",
                         "target": "_self"
                     }
                 ]

@@ -1,6 +1,7 @@
 # 更新日志
-## 2023-04-18
+## 2023-04-xx
 1. index.html里修改cdn为`https://mg.meiflower.top/oss/cdn/`。
+2. 新增数据结构，链表首页及说明。
 
 ## 2023-04-08
 1. 完善首页，并修改cdn为gcore，防止被墙。
