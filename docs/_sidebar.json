@@ -18,8 +18,8 @@
         "level": 1,
         "icon": "el-icon-star-on",
         "children":[{
-                "title": "常用数据结构",
-                "level": 1,
+                "title": "目录索引",
+                "level": 2,
                 "icon": "el-icon-star-on",
                 "href": "#/ds/index",
                 "target": "_self"
@@ -27,22 +27,50 @@
             {
                 
                 "title": "数据结构",
-                "level": 1,
+                "level": 2,
                 "icon": "el-icon-star-on",
                 "children":[
                     {
                         "title": "字符串和数组",
-                        "level": 1,
+                        "level": 3,
                         "icon": "el-icon-star-on",
                         "href": "#/ds/array/index",
                         "target": "_self"
                     },
                     {
                         "title": "链表",
-                        "level": 1,
+                        "level": 3,
                         "icon": "el-icon-star-on",
                         "href": "#/ds/linktable/index",
                         "target": "_self"
+                    },
+                    {
+                        "title": "栈",
+                        "level": 3,
+                        "icon": "el-icon-star-on",
+                        "href": "#/ds/stack/index",
+                        "target": "_self"
+                    },
+                    {
+                        "title": "队列",
+                        "level": 3,
+                        "icon": "el-icon-star-on",
+                        "href": "#/ds/queue/index",
+                        "target": "_self"
+                    },
+                    {
+                        "title": "树",
+                        "level": 3,
+                        "icon": "el-icon-star-on",
+                        "children":[
+                            {
+                                "title": "二叉树",
+                                "level": 4,
+                                "icon": "el-icon-star-on",
+                                "href": "#/ds/tree/index",
+                                "target": "_self"
+                            }
+                        ]
                     }
                 ]
             }
