@@ -1,4 +1,8 @@
 # 更新日志
+
+## 2023-04-029
+1. 升级`mangodoc`到`1.5.1`。
+
 ## 2023-04-xx
 1. index.html里修改cdn为`https://mg.meiflower.top/oss/cdn/`。
 2. 新增数据结构，链表首页及说明。
